@@ -40,6 +40,7 @@ namespace ConsoleApp1
             items.Remove(item);
         }
 
+        // Объединение
         public GoodSet<T> Union(GoodSet<T> set)
         {
             return new GoodSet<T>(items.Union(set.items));
